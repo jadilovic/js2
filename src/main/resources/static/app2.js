@@ -25,3 +25,25 @@ btns.forEach(function(btn){
 		value.textContent = count;
 	})
 })
+
+const list = ["a", "b", "c"];
+
+let i = 0;
+
+while(i < list.length){
+	console.log(list[i]);
+	console.log(i);
+	i++;
+}
+
+for(const x of list){
+	console.log(x);
+}
+
+const car = {
+		  brand: {
+		    name: 'Ford'
+		  },
+		  color: 'blue'
+		}
+console.log(car.brand.name);
