@@ -21,4 +21,11 @@ public class HomeController {
         modelAndView.setViewName("hex");
         return modelAndView;
     }
+    
+    @RequestMapping(value={"/index2"}, method = RequestMethod.GET)
+    public ModelAndView index2Page(){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("index2");
+        return modelAndView;
+    }
 }
